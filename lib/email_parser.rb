@@ -11,5 +11,6 @@ class EmailParser
 
   def parse
     self.emails.split(',',-1)
+    self.emails.split(' ', -1)
   end
 end
